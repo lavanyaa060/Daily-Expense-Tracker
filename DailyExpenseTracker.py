@@ -1,17 +1,21 @@
 import tkinter as tk
 from tkinter import messagebox
 
+#list for storing all expenses
 expenses=[]
 
+#function for adding expense
 def add_exp():
  item=ent_item.get()
  amt=ent_amt.get()
 
+ #save and show message when expense is added by user
  expenses.append((item,amt))
  messagebox.showinfo("Added",f"Added={item} ₹{amt}")
  ent_item.delete(0,tk.END)
  ent_amt.delete(0, tk.END)
 
+#storing all expense data
 def show_exp():
  txt.delete("1.0",tk.END)
  if not expenses:
@@ -24,6 +28,7 @@ def show_exp():
   total+=amt
  txt.insert(tk.END,f"\nTotal=₹{total}")
 
+#main screen and buttons
 main=tk.Tk()
 main.title("Daily Expense Tracker")
 main.geometry("350x450")
