@@ -1,11 +1,6 @@
-PROJECT REPORT
+README FILE
 
 DAILY EXPENSE TRACKER
-
-
-Aim:
-
-To create a working application that helps students record and manage their daily expenses by applying the concepts learned in Introduction to Problem Solving and Programming course.
 
 
 Problem Definition:
@@ -26,27 +21,6 @@ Allow users to input their daily expenses
 Show all the expenses
 Show total amount spent
 Help users keep records of their expenses
-
-
-Top-Down Design:
-
-1.Start
-2.Create function to add expense
-3.Create function to show expense list
-4.Create function to calculate total money spent
-5.Exit
-
-
-Algorithm:
-
-1.Start
-2.Create list called expenses
-3.Display main screen with options
-4.Ask user to input expenses
-5.Store in list
-6.If user selects “Show Expenses”
-   Display all entries
-7.End
 
 
 Screenshots:
